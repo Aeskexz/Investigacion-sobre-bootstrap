@@ -4,8 +4,10 @@
   }
 
 
-  .img-tamaño {
-    width: 100%;
-    max-width: 400px; 
-    height: auto; 
+
+.img-tamaño {
+    width: 70%;
+    max-width: 100px;
+    height: auto;
   }
+  
