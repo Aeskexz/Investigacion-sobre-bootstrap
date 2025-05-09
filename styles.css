@@ -3,8 +3,6 @@
     background-color: #f8f9fa;
   }
 
-
-
 .img-tamaño {
     width: 40%;
     max-width: 100px;
@@ -12,57 +10,45 @@
     margin : 0 auto;
   }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #fef6e4, #ffe5ec, #e0f7fa);
-  background-attachment: fixed;
-  min-height: 100vh;
-}
+  body {
+    background: linear-gradient(135deg, #fef6e4, #ffe5ec, #e0f7fa);
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  .titulo-principal {
+    font-weight: 600;
+    color: #5c5c5c;
+    margin-top: 20px;
+  }
 
-.menu-container {
-  max-width: 600px;
-  margin: 40px auto; 
-  padding: 40px 30px;
-  background-color: #ffffffcc;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.titulo-principal {
-  font-size: 2rem;
-  color: #5c5c5c;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.menu-links {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: stretch;
-}
-
-.menu-btn {
-  display: inline-block;
-  padding: 15px 20px;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1rem;
-  text-align: center;
-  color: #fff;
-  text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.pastel-rosa { background-color: #f8ad9d; }
-.pastel-azul { background-color: #a0c4ff; color: #444; }
-.pastel-verde { background-color: #b5ead7; color: #444; }
-.pastel-lila { background-color: #cdb4db; }
-
-.menu-btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
+  .pastel-rosa {
+    background-color: #ffe0e9 !important;
+    border: 2px solid #ffb3c6;
+  }
+  .pastel-azul {
+    background-color: #d0ebff !important;
+    border: 2px solid #a3daff;
+  }
+  .pastel-verde {
+    background-color: #d9fbee !important;
+    border: 2px solid #b2f2bb;
+  }
+  .pastel-lila {
+    background-color: #f0e6ff !important;
+    border: 2px solid #d3bfff;
+  }
+  
+  .card.btn {
+    border-radius: 1rem;
+    transition: 0.3s ease;
+  }
+  
+  .card.btn:hover {
+    transform: scale(1.04);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
