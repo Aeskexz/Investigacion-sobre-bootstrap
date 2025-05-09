@@ -10,6 +10,12 @@
     body {
       background-color: #f8f9fa;
     }
+
+    .img-tamaño {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
   </style>
 </head>
 <body>
@@ -18,17 +24,16 @@
     <h1 class="text-center mb-4">Imágenes Responsivas con Bootstrap</h1>
     <p class="text-center">Usamos la clase <code>.img-fluid</code> para que las imágenes se adapten al tamaño del contenedor.</p>
 
-    <div class="row justify-content-center mb-4">
-      <div class="col-md-8">
-    
-        <img src="imagenes/a06a294c-339f-401b-9d55-213289593dad.jpg" class="img-fluid rounded-circle img-tamaño" alt="Otra imagen">
+    <div class="row mb-4">
+      <div class="col text-center">
+        <img src="imagenes/a06a294c-339f-401b-9d55-213289593dad.jpg" class="img-fluid rounded-circle img-tamaño d-block mx-auto" alt="Otra imagen">
       </div>
     </div>
 
-    <div class="row justify-content-center">
       <div class="col-md-6">
-        
-        <img src="imagenes/c855f7b9-016b-4a9c-a348-cca6a23dbb6e.jpg" class="img-fluid rounded-circle img-tamaño" alt="Ejemplo de imagen 2">
+    <div class="row">
+      <div class="col text-center">
+        <img src="imagenes/c855f7b9-016b-4a9c-a348-cca6a23dbb6e.jpg" class="img-fluid rounded-circle img-tamaño d-block mx-auto" alt="Ejemplo de imagen 2">
       </div>
     </div>
 
