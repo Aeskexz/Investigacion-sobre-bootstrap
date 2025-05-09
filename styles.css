@@ -12,41 +12,37 @@
     margin : 0 auto;
   }
 
-
 body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fef6e4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  background: linear-gradient(135deg, #fef6e4, #ffe5ec, #e0f7fa);
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
-
 .menu-container {
-  text-align: center;
-  padding: 50px 40px;
-  background-color: white;
+  max-width: 600px;
+  margin: 40px auto; 
+  padding: 40px 30px;
+  background-color: #ffffffcc;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
 
 .titulo-principal {
   font-size: 2rem;
   color: #5c5c5c;
   margin-bottom: 30px;
+  text-align: center;
 }
-
 
 .menu-links {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  align-items: stretch;
 }
-
 
 .menu-btn {
   display: inline-block;
@@ -54,15 +50,15 @@ body {
   border-radius: 10px;
   font-weight: bold;
   font-size: 1rem;
+  text-align: center;
   color: #fff;
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-
 .pastel-rosa { background-color: #f8ad9d; }
-.pastel-azul { background-color: #a0c4ff; }
+.pastel-azul { background-color: #a0c4ff; color: #444; }
 .pastel-verde { background-color: #b5ead7; color: #444; }
 .pastel-lila { background-color: #cdb4db; }
 
