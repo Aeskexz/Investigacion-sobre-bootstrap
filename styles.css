@@ -20,19 +20,19 @@ body {
   margin-top: 20px;
 }
 .pastel-rosa {
-  background-color: #ffe0e9 !important;
+  background-color: #ffe0e9 
   border: 2px solid #ffb3c6;
 }
 .pastel-azul {
-  background-color: #d0ebff !important;
+  background-color: #d0ebff 
   border: 2px solid #a3daff;
 }
 .pastel-verde {
-  background-color: #d9fbee !important;
+  background-color: #d9fbee 
   border: 2px solid #b2f2bb;
 }
 .pastel-lila {
-  background-color: #f0e6ff !important;
+  background-color: #f0e6ff 
   border: 2px solid #d3bfff;
 }
 .card.btn {
